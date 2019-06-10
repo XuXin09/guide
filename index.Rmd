@@ -1,0 +1,40 @@
+--- 
+title: "大数据分析及应用团队工作规范"
+author: "Xin XU"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::html_book
+theme: darkly
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "大数据分析及应用团队工作规范"
+---
+
+# 序
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你好， 欢迎你的加入!  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新的数据分析旅程即将开始，预祝你能快速用业务和技术武装自己，一路披荆斩棘，在明动快速成长。  
+<br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Caption for the picture.](C:/Users/XuX/Desktop/bookdown-demo-master/cool-car.gif)（←图片源于网络）  
+<br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文档主要有四部分组成：第一部分是一些基本的入职流程，第二部分是团队各类规范及业务知识，第三部分是需要完成的常规任务，最后是一些其他的说明。  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在请自由探索吧， 希望这份文档介绍的内容能帮助你更快的适应工作。:)
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

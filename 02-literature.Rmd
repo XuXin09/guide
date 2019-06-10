@@ -1,0 +1,9 @@
+# 团队规范及业务知识
+
+1. 要具备的基本技能：Python 或 R，简单的SQL语句。  
+
+2. 需要知道的[工作规范](http://git.minstone.com.cn/dataanalysisteam/minstone_data_analyze_team/work_standard)，包括代码规范、制图规范、文档记录规范、代码版本管理规范等。  
+
+3. 需要了解熟悉的[业务知识]()：行政执法、环保（Q群文件-环保业务）、政务……  
+
+4. 一些有用的[tips](http://git.minstone.com.cn/dataanalysisteam/minstone_data_analyze_team/QuickStart)：数据库连接、R包技巧、Git常用操作……

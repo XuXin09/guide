@@ -1,0 +1,23 @@
+# 新人入职 {#intro}  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+1. 入Q群，并简单介绍自己。  
+
+2. 向行政获取公司邮箱帐号密码。  
+
+3. 向行政获取电脑（如已获取，请忽略此条；若需等待，请先使用私人电脑），安装R、Python3.x及自选IDE（推荐PyCharm）。  
+
+4. 安装Q群数据库相关文件：navicat、robo 3T。  
+
+5. 安装foxmail客户端，添加公司邮箱账户，并将软件通知设置于任务栏可见、开机自动启动。收件服务器pop.exmail.qq.com，发件服务器smtp.exmail.qq.co。
+
+6. 安装xmind。
+
+7. 向行政获取公司OA密码，登陆[OA](http://192.168.0.212/instance-web/minstone/login)，熟悉工时的填写；事业部Q群里有公司各类规范。
+
+8. 安装Q群文件中Git、TortoiseGit，在OA发起流程，获取Git账号。
+
+
+<br> 
+
