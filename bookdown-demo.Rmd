@@ -1,0 +1,136 @@
+--- 
+title: "大数据分析及应用团队工作规范"
+author: "Xin XU"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::html_book
+theme: darkly
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "大数据分析及应用团队工作规范"
+---
+
+# 序
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你好， 欢迎你的加入!  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新的数据分析旅程即将开始，预祝你能快速用业务和技术武装自己，一路披荆斩棘，在明动快速成长。  
+<br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Caption for the picture.](C:/Users/XuX/Desktop/bookdown-demo-master/cool-car.gif)（←图片源于网络）  
+<br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文档主要有四部分组成：第一部分是一些基本的入职流程，第二部分是团队各类规范及业务知识，第三部分是需要完成的常规任务，最后是一些其他的说明。  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在请自由探索吧， 希望这份文档介绍的内容能帮助你更快的适应工作。:)
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!--chapter:end:index.Rmd-->
+
+# 新人入职 {#intro}  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+1. 入Q群，并简单介绍自己。  
+
+2. 向行政获取公司邮箱帐号密码。  
+
+3. 向行政获取电脑（如已获取，请忽略此条；若需等待，请先使用私人电脑），安装R、Python3.x及自选IDE（推荐PyCharm）。  
+
+4. 安装Q群数据库相关文件：navicat、robo 3T。  
+
+5. 安装foxmail客户端，添加公司邮箱账户，并将软件通知设置于任务栏可见、开机自动启动。收件服务器pop.exmail.qq.com，发件服务器smtp.exmail.qq.co。
+
+6. 安装xmind。
+
+7. 向行政获取公司OA密码，登陆[OA](http://192.168.0.212/instance-web/minstone/login)，熟悉工时的填写；事业部Q群里有公司各类规范。
+
+8. 安装Q群文件中Git、TortoiseGit，在OA发起流程，获取Git账号。
+
+
+<br> 
+
+
+<!--chapter:end:01-intro.Rmd-->
+
+# 团队规范及业务知识
+
+1. 要具备的基本技能：Python 或 R，简单的SQL语句。  
+
+2. 需要知道的[工作规范](http://git.minstone.com.cn/dataanalysisteam/minstone_data_analyze_team/work_standard)，包括代码规范、制图规范、文档记录规范、代码版本管理规范等。  
+
+3. 需要了解熟悉的[业务知识]()：行政执法、环保（Q群文件-环保业务）、政务……  
+
+4. 一些有用的[tips](http://git.minstone.com.cn/dataanalysisteam/minstone_data_analyze_team/QuickStart)：数据库连接、R包技巧、Git常用操作……
+
+<!--chapter:end:02-literature.Rmd-->
+
+# 常规任务  
+
+1. 每天上班，请梳理今日工作计划，合理安排自己的时间。（团队暂时使用Teambition。1.注册；2.新建项目，并将经理加入项目；3.以日期命名任务，上班时新增，下班时回顾任务。）
+
+2. 每天下班离开前，登陆公司[OA](http://192.168.0.212/instance-web/minstone/login)，填写当日工作工时。合同项目需选择相应项目填写工时。   
+
+3. 每天下班离开前，向git提交代码。  
+
+4. 每周一中午12点前，完成并以邮件形式发出上周[工作周报](http://git.minstone.com.cn/dataanalysisteam/minstone_data_analyze_team/work_standard/blob/master/WeeklyGuide_V1.0.md)（模版请询问）。标注%，以说明本周工作任务完成情况。  
+
+<!--chapter:end:03-method.Rmd-->
+
+
+# 培训  
+<br>  
+**目标:**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;知识分享，共同进步。  
+**时间：**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每两周一次（暂时）  
+**讲师：**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;团队成员，依次轮换。  
+**内容： **  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好用有用的包介绍、代码技巧、可复用函数等。  
+**地点：**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当次培训讲师需至少提前一天在OA预定会议室，并在团队Q群发布培训通知。  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通知模板：  
+培训：内容写在这里，请明确培训内容  
+时间：时间写在这里，几月几日（周几） 00:00  
+地点：会议室x  
+参会人员需提前准备：需提前准备的内容或预习的材料写在这里，如有材料需附以文档。
+
+<!--chapter:end:04-application.Rmd-->
+
+# 其他  
+
+1. 请假：请假请提前告知经理，请假天数达3天及以上最好提前5天申请，以便安排工作。获口头得批准后，在OA走流程申请《广州请假申请表》。请假时请告知助理备案。特殊情况可特殊处理。  
+
+2. 当发送材料或沟通重要事务，对象是公司内其他事业部及部门的同事时，需以邮件形式，并抄送经理；当部门内交付工作结果或发送其他重要文件时，需以邮件形式；当发送材料对象是公司外部客户及人员时，需获得经理同意，并以邮件形式发送，抄送经理。   
+
+3. 加班：
+```
+if 晚上加班 & 下班时间 > 8pm:
+    if 想点公司的订餐:
+        要在界面把定位改到a栋再点。
+        每天17: 00截止。
+    else:
+        出去吃报销。
+else:
+    拜拜，明天见~~
+```
+  
+
+<!--chapter:end:05-trainning.Rmd-->
+
